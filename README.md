@@ -1,4 +1,4 @@
-# 🎯 Stalker Portal IPTV Toolkit
+# 🎯 Stalker Portal M3U Convertor
 
 Two Cloudflare Worker scripts for working with **Stalker Portal IPTV servers**.
 
