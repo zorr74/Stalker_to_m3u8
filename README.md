@@ -39,6 +39,10 @@ These scripts **run entirely on Cloudflare Workers** (no hosting server required
   - **STB Type** (e.g. `MAG250`)
 
 ---
+### How to access scripts
+• playlist-generator => <your-deployment-url>/playlist.m3u8 ( eg. https://your-worker.worker.dev/playlist.m3u8 )
+
+• Stream-link-extractorb => <your-deployment-url>/$id.m3u8 (eg. https://your-worker.worker.dev/{$channel_id}.m3u8
 
 ## 🚀 Deployment
 
@@ -65,3 +69,4 @@ const config = {
     api_signature: '263',
     stream_url: 'https://your-worker-url/${real_cmd}.m3u8'
 };
+
