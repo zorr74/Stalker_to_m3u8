@@ -1,6 +1,6 @@
 # 🎯 Stalker Portal IPTV Toolkit
 
-Two powerful Cloudflare Worker scripts for working with **Stalker Portal IPTV servers**.
+Two Cloudflare Worker scripts for working with **Stalker Portal IPTV servers**.
 
 ---
 
@@ -9,7 +9,7 @@ Two powerful Cloudflare Worker scripts for working with **Stalker Portal IPTV se
 This repository contains:
 
 1. **Stalker-Portal Playlist Live Generator**  
-   ➡ Generates a full `.m3u8` playlist from your Stalker Portal account (including metadata, info channels, and stream links).
+   ➡ Generates a full `.m3u8` auto updated playlist from your Stalker Portal account (including metadata, info channels, and stream links).
 
 2. **Stalker-Portal Stream Link Extractor**  
    ➡ Extracts a direct `.m3u8` stream link for a given channel ID.
@@ -22,7 +22,7 @@ These scripts **run entirely on Cloudflare Workers** (no hosting server required
 
 | File Name                | Description |
 |--------------------------|-------------|
-| `playlist-generator.js`  | Generates `.m3u8` playlist from a Stalker Portal. |
+| `auto-updated-playlist-generator.js`  | Generates `.m3u8` playlist from a Stalker Portal. |
 | `stream-link-extractor.js` | Gets the direct stream link for a specific channel ID. |
 
 ---
@@ -40,7 +40,7 @@ These scripts **run entirely on Cloudflare Workers** (no hosting server required
 
 ---
 ### How to access scripts
-• playlist-generator => <your-deployment-url>/playlist.m3u8 ( eg. https://your-worker.worker.dev/playlist.m3u8 )
+• auto-updated-playlist-generator => <your-deployment-url>/playlist.m3u8 ( eg. https://your-worker.worker.dev/playlist.m3u8 )
 
 • Stream-link-extractorb => <your-deployment-url>/$id.m3u8 (eg. https://your-worker.worker.dev/{$channel_id}.m3u8
 
@@ -70,3 +70,6 @@ const config = {
     stream_url: 'https://your-worker-url/${real_cmd}.m3u8'
 };
 
+📬 Contact
+• Author: @tg_aadi
+• Telegram: https://t.me/tg_aadi
