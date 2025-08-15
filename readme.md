@@ -1,8 +1,7 @@
-# 📺 Stalker-Portal to M3U Playlist Generator
+# 📺 Stalker-Portal to live M3U Playlist Generator
 
 **Author:** [@tg_aadi](https://t.me/tg_aadi)  
-**Telegram Support:** [https://t.me/tg_aadi](https://t.me/tg_aadi)  
-**License:** Free to use  
+**Telegram Support:** [https://t.me/tg_aadi](https://t.me/tg_aadi)   
 
 This project allows you to **convert any Stalker-Portal account into an M3U playlist** that can be used in IPTV players like **TiviMate, OTT Navigator, VLC, Perfect Player**, etc.
 
