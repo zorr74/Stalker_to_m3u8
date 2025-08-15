@@ -29,22 +29,6 @@ With this script, you can:
 - Basic GitHub knowledge to fork & deploy
 
 ---
-
-## 🛠 Configuration
-
-Edit the **`config`** object in the script before deployment:
-
-```javascript
-const config = {
-    host: '',             // e.g. 'example.com' (your portal host without http/https)
-    mac_address: '',      // Your portal MAC address (e.g., 00:1A:79:12:34:56)
-    serial_number: '',    // Your device serial number
-    device_id: '',        // Your Device ID
-    device_id_2: '',      // Your Device ID 2
-    stb_type: 'MAG250',   // STB type (default MAG250)
-    api_signature: '263', // Keep as is
-};
-
 📂 Usage
 
 Once deployed:
@@ -75,3 +59,18 @@ If you need help or encounter issues:
 Contact me on Telegram: @tg_aadi
 
 Open a GitHub issue in this repository
+
+## 🛠 Configuration
+
+Edit the **`config`** object in the script before deployment:
+
+```javascript
+const config = {
+    host: '',             // e.g. 'example.com' (your portal host without http/https)
+    mac_address: '',      // Your portal MAC address (e.g., 00:1A:79:12:34:56)
+    serial_number: '',    // Your device serial number
+    device_id: '',        // Your Device ID
+    device_id_2: '',      // Your Device ID 2
+    stb_type: 'MAG250',   // STB type (default MAG250)
+    api_signature: '263', // Keep as is
+};
