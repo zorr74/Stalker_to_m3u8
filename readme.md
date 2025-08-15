@@ -44,3 +44,34 @@ const config = {
     stb_type: 'MAG250',   // STB type (default MAG250)
     api_signature: '263', // Keep as is
 };
+
+📂 Usage
+
+Once deployed:
+
+Playlist:
+
+https://YOUR-WORKER-NAME.YOUR-SUBDOMAIN.workers.dev/playlist.m3u8
+
+
+Add this link to any IPTV player.
+
+⚠️ Notes & Troubleshooting
+
+Make sure your portal credentials are correct
+
+Cloudflare Workers have a 10-second fetch limit; huge playlists may take time
+
+If streams don't play, your portal may require encryption or be geo-restricted
+
+📜 License
+
+This project is free for educational purposes. You are responsible for how you use it.
+
+💬 Support
+
+If you need help or encounter issues:
+
+Contact me on Telegram: @tg_aadi
+
+Open a GitHub issue in this repository
