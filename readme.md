@@ -65,11 +65,11 @@ Edit the **`config`** object in the script before deployment:
 
 ```javascript
 const config = {
-    host: '',             // e.g. 'example.com' (your portal host without http/https)
-    mac_address: '',      // Your portal MAC address (e.g., 00:1A:79:12:34:56)
-    serial_number: '',    // Your device serial number
-    device_id: '',        // Your Device ID
-    device_id_2: '',      // Your Device ID 2
+    host: 'sky.dittotvv.cc',             // e.g. 'example.com' (your portal host without http/https)
+    mac_address: '00:1A:79:F2:B3:14',      // Your portal MAC address (e.g., 00:1A:79:12:34:56)
+    serial_number: 'A9790F4160084',    // Your device serial number
+    device_id: '09F00F06FD94E7A4034ADB2121040AB31C3B284A89C3295879CC94CF86A36228',        // Your Device ID
+    device_id_2: '09F00F06FD94E7A4034ADB2121040AB31C3B284A89C3295879CC94CF86A36228',      // Your Device ID 2
     stb_type: 'MAG250',   // STB type (default MAG250)
     api_signature: '263', // Keep as is
 };
