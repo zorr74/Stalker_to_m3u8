@@ -10,11 +10,11 @@
 
 // ============ ⚙ CONFIGURATION ============
 const config = {
-    host: '', // Replace with your Stalker-Portal host (e.g., 'example.com')
-    mac_address: '', // Replace with your MAC address
-    serial_number: '', // Replace with your serial number
-    device_id: '', // Replace with your device_id
-    device_id_2: '', // Replace with your device_id_2
+    host: 'http://line.iptvgoat.com', // Replace with your Stalker-Portal host (e.g., 'example.com')
+    mac_address: '00:1A:79:E5:66:AF', // Replace with your MAC address
+    serial_number: '72CC855D7B9FF', // Replace with your serial number
+    device_id: 'EAAA978D22C98724185CBCE8B4F159BB6D8F9172FA46CA547040131FB13CFBB9', // Replace with your device_id
+    device_id_2: '248C1A734777BCE0B35C907905B9585BF3B8BBDF9F7D855A7274C804356492CF', // Replace with your device_id_2
     stb_type: 'MAG250', // Replace with Stalker-Portal Stb_type
     api_signature: '263', // No need to change
 };
